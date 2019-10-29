@@ -6,6 +6,7 @@ let nested = require('postcss-nested')
 let cssImport = require('postcss-import')
 let browserSync = require('browser-sync').create()
 let mixins = require('postcss-mixins')
+require('./gulp/tasks/sprites')
 
 //let watch = require('gulp-watch')
 
